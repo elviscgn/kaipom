@@ -9,7 +9,7 @@ console = Console() # rich library to make your text output be colourful
 
 class Timer:
 
-    def __init__(self,total_duration_of_study_session, pomodoro_duration):
+    def __init__(self, total_duration_of_study_session, pomodoro_duration):
         self.total_duration_of_study_session = total_duration_of_study_session
         self.pomodoro_duration = pomodoro_duration
 
