@@ -4,7 +4,6 @@ from rich.progress import Progress, track
 from datetime import datetime
 import json
 import time
-from pathlib import Path
 from rich import print
 from rich.markdown import Markdown
 from rich.console import Console
@@ -32,7 +31,6 @@ def main():
         current_date = Markdown(current_date)
 
         mark_down = Markdown(heading)
-        line = "_"
    
         console.print(mark_down)
 
@@ -51,7 +49,7 @@ def main():
         
         print("")
    
-        time.sleep(2) # Adds 3 second delay to prep.
+        time.sleep(1) # Adds 3 second delay to prep.
 
         while True:
 
