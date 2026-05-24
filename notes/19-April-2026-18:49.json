@@ -1,6 +1,0 @@
-{
-    "date": "19-April-2026",
-    "study_duration": "25 minutes",
-    "start_time": "18:49",
-    "notes": "Explored Python decorators. They're functions that modify other functions. The @ syntax is syntactic sugar. Example: @timer def func(): ... Useful for logging, timing, authentication."
-}
