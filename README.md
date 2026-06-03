@@ -12,12 +12,12 @@ Made from joining the two words, Kaizen (Japanese philosophy of continous improv
 
 ```bash
 # Start a Pomodoro
-study-cli study 25 --hour 2
+kp study 25 
 
 # Add a note
 study-cli notes --add "Learned about list comprehensions"
 
 # View notes
-study-cli notes
+kp notes
 
 
