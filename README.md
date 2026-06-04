@@ -11,11 +11,9 @@ Made from joining the two words, Kaizen (Japanese philosophy of continous improv
 ## Commands
 
 ```bash
-# Start a Pomodoro
-kp study 25 
-
-# Add a note
-study-cli notes --add "Learned about list comprehensions"
+# Start a Pomodoro Session
+kp study 25
+kp study 50
 
 # View notes
 kp notes
