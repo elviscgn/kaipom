@@ -14,10 +14,13 @@ from kaipom.timer import Timer
 from kaipom.notes import Notes
 from pathlib import Path
 
+from kaipom.quote import Quotes
+
+q = Quotes()
 
 home_dir = Path.home()
-
 console =  Console()
+
 
 def main():
     
@@ -52,6 +55,12 @@ def main():
         else:
              print(f"Break duration: 5 Minutes")
         
+        print("")
+
+        # Quote
+
+        console.print(q.random_quote())
+
         print("")
    
         time.sleep(1) # Adds 3 second delay to prep.
