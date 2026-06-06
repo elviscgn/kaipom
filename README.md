@@ -1,6 +1,6 @@
 # kaipom
 
-Made from joining the two words, Kaizen (Japanese philosophy of continous improvement) & Pomodoro, is command‑line study tool that uses the Pomodoro Technique to help me focus, track my learning, and revisit what I've learnt. 
+Named from joining the two words, Kaizen (Japanese philosophy of continous improvement) & Pomodoro, is command‑line study tool that uses the Pomodoro Technique to help me focus, track my learning, and revisit what I've learnt. 
 
 I noticed sometimes when I didn't have Wifi or data I couldn't use the Youtube Pomodoro videos I liked to study along with and that affected how I learnt, so I decided to build a tool I know that I'll utilise all the time. That's how Kaipom came to be.
 
